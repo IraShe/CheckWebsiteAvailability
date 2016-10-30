@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteChrome">
+    <parameter name="browser" value="Chrome"/>
+   <test name="OnServer1">
+       <parameter name="serverIp" value="12"/>
+    <classes>
+        <class name = "tests.WebsiteAvailabilityTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="OnServer2">
+        <parameter name="serverIp" value="13"/>
+        <classes>
+            <class name = "tests.WebsiteAvailabilityTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="OnServer3">
+        <parameter name="serverIp" value="14"/>
+        <classes>
+            <class name = "tests.WebsiteAvailabilityTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="OnServer4">
+        <parameter name="serverIp" value="16"/>
+        <classes>
+            <class name = "tests.WebsiteAvailabilityTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

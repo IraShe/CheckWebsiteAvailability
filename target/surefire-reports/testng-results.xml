@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="56" passed="56">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteChrome" duration-ms="105887" started-at="2016-10-27T13:25:51Z" finished-at="2016-10-27T13:27:37Z">
+    <groups>
+    </groups>
+    <test name="OnServer1" duration-ms="34860" started-at="2016-10-27T13:25:51Z" finished-at="2016-10-27T13:26:26Z">
+      <class name="tests.WebsiteAvailabilityTest">
+        <test-method status="PASS" signature="before(java.lang.Integer)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="before" is-config="true" duration-ms="15" started-at="2016-10-27T16:25:51Z" finished-at="2016-10-27T16:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="7100" started-at="2016-10-27T16:25:52Z" data-provider="excelData" finished-at="2016-10-27T16:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/corporate/digital/support/customerservice/saleservicesentries/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון – שעות פתיחה, כתובת וטלפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="3634" started-at="2016-10-27T16:25:59Z" data-provider="excelData" finished-at="2016-10-27T16:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/customerservice/mail_service/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות אישי במייל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="3425" started-at="2016-10-27T16:26:03Z" data-provider="excelData" finished-at="2016-10-27T16:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/tracker/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מעקב אחר תיקון מכשיר]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="3611" started-at="2016-10-27T16:26:06Z" data-provider="excelData" finished-at="2016-10-27T16:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/store/repair_services/Fix4All/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות תיקונים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="1103" started-at="2016-10-27T16:26:10Z" data-provider="excelData" finished-at="2016-10-27T16:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/general/pages/forms/get_an_offer.aspx?ref=pelephone_website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הצטרפות לפלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="2686" started-at="2016-10-27T16:26:11Z" data-provider="excelData" finished-at="2016-10-27T16:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/contentproducts/cloud/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[גיבוי ענן Cloud | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="651" started-at="2016-10-27T16:26:14Z" data-provider="excelData" finished-at="2016-10-27T16:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/surfing_volume_expansion/pac_expansion/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הרחבת חבילות]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="3581" started-at="2016-10-27T16:26:14Z" data-provider="excelData" finished-at="2016-10-27T16:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.pelephone.co.il/digital/3G/Corporate/digital/store/plelephoneabroad/pelechul_info/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[חשוב לדעת לפני שטסים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="1154" started-at="2016-10-27T16:26:18Z" data-provider="excelData" finished-at="2016-10-27T16:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מידע ותמיכה]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="1363" started-at="2016-10-27T16:26:19Z" data-provider="excelData" finished-at="2016-10-27T16:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/devices_operating/doit_yourself/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[עשה זאת בעצמך]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="1187" started-at="2016-10-27T16:26:21Z" data-provider="excelData" finished-at="2016-10-27T16:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/phoneservices/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מוקדי שירות טלפוניים | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="777" started-at="2016-10-27T16:26:22Z" data-provider="excelData" finished-at="2016-10-27T16:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/general_info/accessibility_products/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[נגישות | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="2126" started-at="2016-10-27T16:26:23Z" data-provider="excelData" finished-at="2016-10-27T16:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/unlimited/unlimited2/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון במבצע - חבילות סלולר ומבצעים פלאפון דיגיטל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@38082d64]" name="checkPageTitle" duration-ms="1577" started-at="2016-10-27T16:26:25Z" data-provider="excelData" finished-at="2016-10-27T16:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/packges/Talk_and_Go/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[סים פריפייד – מסלול Talk & Go ללא הגבלה | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+      </class> <!-- tests.WebsiteAvailabilityTest -->
+    </test> <!-- OnServer1 -->
+    <test name="OnServer2" duration-ms="21840" started-at="2016-10-27T13:26:26Z" finished-at="2016-10-27T13:26:48Z">
+      <class name="tests.WebsiteAvailabilityTest">
+        <test-method status="PASS" signature="before(java.lang.Integer)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="before" is-config="true" duration-ms="16" started-at="2016-10-27T16:26:26Z" finished-at="2016-10-27T16:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="5685" started-at="2016-10-27T16:26:27Z" data-provider="excelData" finished-at="2016-10-27T16:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/corporate/digital/support/customerservice/saleservicesentries/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון – שעות פתיחה, כתובת וטלפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="3183" started-at="2016-10-27T16:26:32Z" data-provider="excelData" finished-at="2016-10-27T16:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/customerservice/mail_service/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות אישי במייל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="3367" started-at="2016-10-27T16:26:35Z" data-provider="excelData" finished-at="2016-10-27T16:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/tracker/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מעקב אחר תיקון מכשיר]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="1194" started-at="2016-10-27T16:26:39Z" data-provider="excelData" finished-at="2016-10-27T16:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/store/repair_services/Fix4All/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות תיקונים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="1181" started-at="2016-10-27T16:26:40Z" data-provider="excelData" finished-at="2016-10-27T16:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/general/pages/forms/get_an_offer.aspx?ref=pelephone_website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הצטרפות לפלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="732" started-at="2016-10-27T16:26:41Z" data-provider="excelData" finished-at="2016-10-27T16:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/contentproducts/cloud/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[גיבוי ענן Cloud | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="686" started-at="2016-10-27T16:26:42Z" data-provider="excelData" finished-at="2016-10-27T16:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/surfing_volume_expansion/pac_expansion/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הרחבת חבילות]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="1178" started-at="2016-10-27T16:26:43Z" data-provider="excelData" finished-at="2016-10-27T16:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.pelephone.co.il/digital/3G/Corporate/digital/store/plelephoneabroad/pelechul_info/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[חשוב לדעת לפני שטסים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="936" started-at="2016-10-27T16:26:44Z" data-provider="excelData" finished-at="2016-10-27T16:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מידע ותמיכה]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="617" started-at="2016-10-27T16:26:45Z" data-provider="excelData" finished-at="2016-10-27T16:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/devices_operating/doit_yourself/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[עשה זאת בעצמך]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="687" started-at="2016-10-27T16:26:45Z" data-provider="excelData" finished-at="2016-10-27T16:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/phoneservices/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מוקדי שירות טלפוניים | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="457" started-at="2016-10-27T16:26:46Z" data-provider="excelData" finished-at="2016-10-27T16:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/general_info/accessibility_products/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[נגישות | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="1053" started-at="2016-10-27T16:26:46Z" data-provider="excelData" finished-at="2016-10-27T16:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/unlimited/unlimited2/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון במבצע - חבילות סלולר ומבצעים פלאפון דיגיטל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6fb554cc]" name="checkPageTitle" duration-ms="675" started-at="2016-10-27T16:26:47Z" data-provider="excelData" finished-at="2016-10-27T16:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/packges/Talk_and_Go/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[סים פריפייד – מסלול Talk & Go ללא הגבלה | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+      </class> <!-- tests.WebsiteAvailabilityTest -->
+    </test> <!-- OnServer2 -->
+    <test name="OnServer3" duration-ms="24500" started-at="2016-10-27T13:26:48Z" finished-at="2016-10-27T13:27:13Z">
+      <class name="tests.WebsiteAvailabilityTest">
+        <test-method status="PASS" signature="before(java.lang.Integer)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="before" is-config="true" duration-ms="0" started-at="2016-10-27T16:26:48Z" finished-at="2016-10-27T16:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="5661" started-at="2016-10-27T16:26:48Z" data-provider="excelData" finished-at="2016-10-27T16:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/corporate/digital/support/customerservice/saleservicesentries/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון – שעות פתיחה, כתובת וטלפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="3514" started-at="2016-10-27T16:26:54Z" data-provider="excelData" finished-at="2016-10-27T16:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/customerservice/mail_service/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות אישי במייל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="3479" started-at="2016-10-27T16:26:57Z" data-provider="excelData" finished-at="2016-10-27T16:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/tracker/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מעקב אחר תיקון מכשיר]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1378" started-at="2016-10-27T16:27:01Z" data-provider="excelData" finished-at="2016-10-27T16:27:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/store/repair_services/Fix4All/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות תיקונים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1406" started-at="2016-10-27T16:27:02Z" data-provider="excelData" finished-at="2016-10-27T16:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/general/pages/forms/get_an_offer.aspx?ref=pelephone_website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הצטרפות לפלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1127" started-at="2016-10-27T16:27:04Z" data-provider="excelData" finished-at="2016-10-27T16:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/contentproducts/cloud/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[גיבוי ענן Cloud | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="744" started-at="2016-10-27T16:27:05Z" data-provider="excelData" finished-at="2016-10-27T16:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/surfing_volume_expansion/pac_expansion/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הרחבת חבילות]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1419" started-at="2016-10-27T16:27:06Z" data-provider="excelData" finished-at="2016-10-27T16:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.pelephone.co.il/digital/3G/Corporate/digital/store/plelephoneabroad/pelechul_info/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[חשוב לדעת לפני שטסים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1184" started-at="2016-10-27T16:27:07Z" data-provider="excelData" finished-at="2016-10-27T16:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מידע ותמיכה]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="819" started-at="2016-10-27T16:27:08Z" data-provider="excelData" finished-at="2016-10-27T16:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/devices_operating/doit_yourself/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[עשה זאת בעצמך]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="858" started-at="2016-10-27T16:27:09Z" data-provider="excelData" finished-at="2016-10-27T16:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/phoneservices/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מוקדי שירות טלפוניים | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="557" started-at="2016-10-27T16:27:10Z" data-provider="excelData" finished-at="2016-10-27T16:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/general_info/accessibility_products/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[נגישות | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="1393" started-at="2016-10-27T16:27:10Z" data-provider="excelData" finished-at="2016-10-27T16:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/unlimited/unlimited2/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון במבצע - חבילות סלולר ומבצעים פלאפון דיגיטל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@3567135c]" name="checkPageTitle" duration-ms="861" started-at="2016-10-27T16:27:12Z" data-provider="excelData" finished-at="2016-10-27T16:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/packges/Talk_and_Go/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[סים פריפייד – מסלול Talk & Go ללא הגבלה | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+      </class> <!-- tests.WebsiteAvailabilityTest -->
+    </test> <!-- OnServer3 -->
+    <test name="OnServer4" duration-ms="24535" started-at="2016-10-27T13:27:13Z" finished-at="2016-10-27T13:27:37Z">
+      <class name="tests.WebsiteAvailabilityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="setUp" is-config="true" duration-ms="156" started-at="2016-10-27T16:25:51Z" finished-at="2016-10-27T16:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="before(java.lang.Integer)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="before" is-config="true" duration-ms="16" started-at="2016-10-27T16:27:13Z" finished-at="2016-10-27T16:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="5400" started-at="2016-10-27T16:27:13Z" data-provider="excelData" finished-at="2016-10-27T16:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/corporate/digital/support/customerservice/saleservicesentries/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון – שעות פתיחה, כתובת וטלפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="3750" started-at="2016-10-27T16:27:18Z" data-provider="excelData" finished-at="2016-10-27T16:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/customerservice/mail_service/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות אישי במייל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="3590" started-at="2016-10-27T16:27:22Z" data-provider="excelData" finished-at="2016-10-27T16:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/tracker/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מעקב אחר תיקון מכשיר]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1731" started-at="2016-10-27T16:27:26Z" data-provider="excelData" finished-at="2016-10-27T16:27:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/store/repair_services/Fix4All/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[שירות תיקונים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1787" started-at="2016-10-27T16:27:27Z" data-provider="excelData" finished-at="2016-10-27T16:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/general/pages/forms/get_an_offer.aspx?ref=pelephone_website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הצטרפות לפלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1187" started-at="2016-10-27T16:27:29Z" data-provider="excelData" finished-at="2016-10-27T16:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/contentproducts/cloud/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[גיבוי ענן Cloud | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1022" started-at="2016-10-27T16:27:30Z" data-provider="excelData" finished-at="2016-10-27T16:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/surfing_volume_expansion/pac_expansion/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[הרחבת חבילות]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1276" started-at="2016-10-27T16:27:31Z" data-provider="excelData" finished-at="2016-10-27T16:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.pelephone.co.il/digital/3G/Corporate/digital/store/plelephoneabroad/pelechul_info/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[חשוב לדעת לפני שטסים]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1122" started-at="2016-10-27T16:27:33Z" data-provider="excelData" finished-at="2016-10-27T16:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3G/Corporate/digital/support/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מידע ותמיכה]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="543" started-at="2016-10-27T16:27:34Z" data-provider="excelData" finished-at="2016-10-27T16:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/devices_operating/doit_yourself/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[עשה זאת בעצמך]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="717" started-at="2016-10-27T16:27:34Z" data-provider="excelData" finished-at="2016-10-27T16:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/customerservice/phoneservices/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[מוקדי שירות טלפוניים | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="441" started-at="2016-10-27T16:27:35Z" data-provider="excelData" finished-at="2016-10-27T16:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/support/general_info/accessibility_products/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[נגישות | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="1170" started-at="2016-10-27T16:27:35Z" data-provider="excelData" finished-at="2016-10-27T16:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il/digital/3g/corporate/digital/store/packges/unlimited/unlimited2/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[פלאפון במבצע - חבילות סלולר ומבצעים פלאפון דיגיטל]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="checkPageTitle(java.lang.String, java.lang.String)[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="checkPageTitle" duration-ms="666" started-at="2016-10-27T16:27:37Z" data-provider="excelData" finished-at="2016-10-27T16:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.pelephone.co.il//digital/3G/Corporate/digital/store/packges/Talk_and_Go/.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[סים פריפייד – מסלול Talk & Go ללא הגבלה | פלאפון]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WebsiteAvailabilityTest@6b143ee9]" name="tearDown" is-config="true" duration-ms="2356" started-at="2016-10-27T16:27:37Z" finished-at="2016-10-27T16:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WebsiteAvailabilityTest -->
+    </test> <!-- OnServer4 -->
+  </suite> <!-- SuiteChrome -->
+</testng-results>
